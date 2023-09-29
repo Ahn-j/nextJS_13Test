@@ -35,4 +35,4 @@ yarn-error.log*
 next-env.d.ts
 
 #DB.json
-.db.json
+db.json
