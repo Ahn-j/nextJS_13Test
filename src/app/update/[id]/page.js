@@ -2,7 +2,7 @@
 //클라이언트 컴포넌트
 "use client"
 
-import { useRouter } from "next/navigation"; //next/routerm는 넥스트12버전(페이지라우터)에서 사용되기때문에 13에서는 에러가 남
+import { useRouter } from "next/navigation"; //next/router는 넥스트12버전(페이지라우터)에서 사용되기때문에 13에서는 에러가 남
 import { useEffect, useState } from "react";
 
 //유저과 상호작용하는 컴포넌트이기때문에 클라이언트컴포넌트로 작성
