@@ -32,7 +32,7 @@ export default function Update({params}) {
         },
         body: JSON.stringify({title, body})
       }
-      fetch(process.env.NEXT_PUBLIC_API_URL + `/topics/${id}`, option)
+      fetch(process.env.NEXT_PUBLIC_API_URL + `topics/${id}`, option)
       .then((resp)=>{return resp.json();})
       .then((result)=>{
         const lastId = result.id;
